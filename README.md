@@ -1,16 +1,44 @@
-# React + Vite
+# IoT Security Risk Monitor
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A lightweight React dashboard for reviewing IoT security posture using mock security data. The application presents a cybersecurity-focused overview of connected devices, risk findings, and recommended access controls in a single interface.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a frontend demonstration for monitoring IoT device security. It helps visualize device inventory, security status, and recommended least-privilege actions without performing any live security testing or network operations.
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Security dashboard
+- IoT device inventory
+- Device security details
+- Security findings with filtering
+- Least-privilege recommendations
+- Responsive cybersecurity-focused UI
 
-## Expanding the Oxlint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- Vite
+- JavaScript/JSX
+- CSS
+
+## Important Limitation
+
+This is a frontend demonstration using mock/static IoT security data.
+
+It does not perform real network scanning, vulnerability scanning, penetration testing, or offensive security operations.
+
+## How to Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## AI-Assisted Development
+
+GitHub Copilot was used for planning, initial implementation, code review, and refinement. Human review was used to validate and manually improve the generated implementation.
+
+## Manual Improvement
+
+The dashboard status label was manually changed from "Status: stable" to "Status: monitored" after reviewing the displayed security findings.
